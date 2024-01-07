@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Shaadi</title>
 </head>
 <body>
@@ -11,8 +12,8 @@
         <nav>
             <h3 class="nav-title">SHA<span class="text-primary ">A</span>DI</h3>
             <ul>
-                <li><a href="">Portfolio</a></li>
-                <li><a href=""></a>Blog</li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
                 <li><button class="btn-primary ">Hire Me</button></li>
             </ul>
         </nav>
@@ -21,8 +22,8 @@
                 <h3 class="banner-text">Hi, I am</h3>
                 <h1 class="banner-title">Sheikh Shaadi</h1>
                 <p class="banner-description">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                <button class="btn-primary">Download</button>
-                <button class="btn-primary">Contacts</button>
+                <button class="btn-primary"><i class='bx bxs-download' ></i> Download</button>
+                <button class="btn-primary"><i class='bx bx-phone-call'></i> Contacts</button>
             </div>
             <img class="banner-profile" src="images/banner.png" alt="">
         </div>
@@ -131,7 +132,7 @@
                 </div>
             </div>
             <div class="download-cv">
-                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary"><i class='bx bxs-download' ></i> Download CV</button>
             </div>
         </section>
     </main>
@@ -147,9 +148,12 @@
         </div>
         <div class="footer-column">
             <h3 class="section-title">Let's Message me</h3>
-            <input type="text" placeholder="Enter your name">
-            <input type="email" name="" id="" placeholder="Enter your email">
-            <textarea placeholder="Your Massage" name="massages" id="" cols="30" rows="10"></textarea>
+            <form class="contact" action="">
+                <input type="text" placeholder="Enter your name">
+                <input type="email" placeholder="Enter your email">
+                <textarea placeholder="Your massage" name="" id="" cols="30" rows="10"></textarea>
+                <input class="btn-primary" type="submit" value="Submit">
+            </form>
         </div>
     </footer>
 </body>
