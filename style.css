@@ -58,6 +58,11 @@ main section {
   color: #fff;
   padding: 14px 35px;
   cursor: pointer;
+  transition: .5s;
+}
+
+.btn-primary:hover {
+  background: #181818;
 }
 
 .header {
@@ -130,15 +135,17 @@ main section {
 
 .about-info-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .about-info {
   text-align: center;
+
 }
 
 .info-title {
   color: #757575;
+  margin-bottom: 30px;
 }
 
 .info-description {
@@ -238,4 +245,143 @@ footer{
 
 .social-icons {
     margin-top: 30px;
+}
+
+
+.hide {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner {
+    padding: 20px;
+  }
+
+  .btn-primary {
+    padding: 10px;
+
+  }
+  
+  nav {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  nav > ul {
+    flex-direction: column;
+  }
+  .banner .banner-profile {
+    width: 100%;
+  }
+  
+  .skills-content{
+    flex-direction: column;
+  }
+  #what-i-do {
+    padding: 20px;
+  }
+  .resume-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-info-content {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .social-icons a {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+  .contact input[type="text"], .contact input[type="email"], textarea {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .banner {
+    flex-direction: column;
+  }
+  .banner {
+    padding: 20px;
+  }
+
+  .btn-primary {
+    padding: 10px;
+
+  }
+  
+  nav {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  nav > ul {
+    flex-direction: column;
+  }
+  .banner .banner-profile {
+    width: 100%;
+  }
+  
+  .skills-content{
+    flex-direction: column;
+  }
+  #what-i-do {
+    padding: 20px;
+  }
+  .resume-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-info-content {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .description {
+    text-align: center;
+  }
+
+  .social-icons a {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+  .contact input[type="text"], .contact input[type="email"], textarea {
+    width: 80%;
+  }
 }
